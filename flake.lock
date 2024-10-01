@@ -16,9 +16,30 @@
         "type": "github"
       }
     },
+    "porymap": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1727825405,
+        "narHash": "sha256-KdmHzE3RYsuPAEEfwYcfbCU50YDA2fgQ2xzQIhqEVGU=",
+        "owner": "frothymarrow",
+        "repo": "porymap",
+        "rev": "1f0cc5f1b89cdb0fa4c2e8af4f94229592d78be7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "frothymarrow",
+        "repo": "porymap",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "porymap": "porymap"
       }
     }
   },
