@@ -39,3 +39,5 @@ prefabs.json
 *.sym
 *.js
 .direnv
+.zed
+.clangd
